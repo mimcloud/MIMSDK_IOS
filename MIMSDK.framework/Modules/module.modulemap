@@ -1,0 +1,6 @@
+framework module MIMSDK {
+  umbrella header "MIMSDK.h"
+
+  export *
+  module * { export * }
+}

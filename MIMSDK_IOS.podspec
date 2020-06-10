@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MIMSDK.framework/Headers/*.h'
   s.vendored_frameworks = 'MJBSDK.framework'
-  s.dependency 'WCDB'
-  s.dependency 'YYKit'
-  s.dependency 'YTKNetwork'
-  s.dependency 'CocoaAsyncSocket'
+  s.dependency 'WCDB', '~> 1.0.7.5'
+  s.dependency 'YYKit', '~> 1.0.9'
+  s.dependency 'YTKNetwork', '~> 3.0.0'
+  s.dependency 'CocoaAsyncSocket', '~> 7.6.4'
 
 end

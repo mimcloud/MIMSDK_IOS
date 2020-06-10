@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MIMSDK.framework/Headers/*.h'
-  s.vendored_frameworks = 'MJBSDK.framework'
+  s.vendored_frameworks = 'MIMSDK.framework'
   s.dependency 'WCDB', '~> 1.0.7.5'
   s.dependency 'YYKit', '~> 1.0.9'
   s.dependency 'YTKNetwork', '~> 3.0.0'

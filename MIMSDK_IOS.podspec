@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MIMSDK_IOS'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.license  = 'MIT'
   s.summary  = 'A chat framework'
   s.homepage = 'https://github.com/mimcloud/MIMSDK_IOS'
@@ -11,9 +11,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MIMSDK.framework/Headers/*.h'
   s.vendored_frameworks = 'MIMSDK.framework'
-  s.dependency 'WCDB', '~> 1.0.7.5'
-  s.dependency 'YYKit', '~> 1.0.9'
-  s.dependency 'YTKNetwork', '~> 3.0.0'
-  s.dependency 'CocoaAsyncSocket', '~> 7.6.4'
 
 end

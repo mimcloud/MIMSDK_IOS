@@ -9,7 +9,7 @@
 #ifndef MIMSDK_h
 #define MIMSDK_h
 
+#import "MIMComm.h"
 #import "MIMManager.h"
-#import "MIMManager+Friendship.h"
 
 #endif /* MIMSDK_h */
